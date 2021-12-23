@@ -3,11 +3,9 @@ Getting Started
 
 .. seealso::
 
-   Part of the following information is reproduced from *Read the Docs* |get_started|
+   Part of the following information is reproduced from *Read the Docs* `Getting Started with Sphinx`_
 
-   .. |get_started| raw:: html
-
-      <a target="_blank" href="https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html">Getting Started with Sphinx</a>
+   .. _Getting Started with Sphinx: https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
 
 .. meta::
    :description lang=en: Get started writing technical documentation with Sphinx.
@@ -94,13 +92,9 @@ External resources
 
 Here are some external resources to help you learn more about Sphinx.
 
-* |Sphinx documentation|
-* |An introduction to Sphinx and Read the Docs for technical writers|
+* `Sphinx documentation`_
+* `An introduction to Sphinx and Read the Docs for technical writers`_
 
-.. |Sphinx documentation| raw:: html
+.. _Sphinx documentation: https://www.sphinx-doc.org/
 
-   <a target="_blank" href="https://www.sphinx-doc.org/">Sphinx documentation</a>
-
-.. |An introduction to Sphinx and Read the Docs for technical writers| raw:: html
-
-   <a target="_blank" href="https://www.ericholscher.com/blog/2016/jul/1/sphinx-and-rtd-for-writers/">An introduction to Sphinx and Read the Docs for technical writers</a>  
+.. _An introduction to Sphinx and Read the Docs for technical writers: https://www.ericholscher.com/blog/2016/jul/1/sphinx-and-rtd-for-writers/

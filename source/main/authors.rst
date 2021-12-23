@@ -7,16 +7,11 @@ This page lists the maintainers and contributors of the Purdue CYAN Lab document
 Maintainers
 -----------
 
-* Deepak Nadig, Purdue University, |http://web.ics.purdue.edu/~nadig/|.
+* Deepak Nadig, Purdue University, `http://web.ics.purdue.edu/~nadig/`_.
+
+.. _http://web.ics.purdue.edu/~nadig/: http://web.ics.purdue.edu/~nadig/
 
 
 Contributors
 ------------
-
-
-
-
-.. |http://web.ics.purdue.edu/~nadig/| raw:: html
-
-   <a target="_blank" href="http://web.ics.purdue.edu/~nadig/">http://web.ics.purdue.edu/~nadig/</a>
 
