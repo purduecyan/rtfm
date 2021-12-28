@@ -23,7 +23,8 @@ python:
    install:
    - requirements: source/requirements.txt
 
-# submodules:
-#   include:
-#     - CNIT481
-#   recursive: true
+submodules:
+   include:
+     - CNIT481-CCI
+     - CNIT481-SDN  
+   recursive: true

@@ -16,6 +16,13 @@ Welcome to Purdue CYAN Lab!
    main/history
    main/support
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Courses
+
+   Cloud-native<CNIT481-CCI/source/index>
+   Software Defined Networks<CNIT481-SDN/source/index>
+
 .. Indices and tables
 .. ==================
 .. 
