@@ -1,6 +1,6 @@
 [submodule "source/CNIT481-CCI"]
 	path = source/CNIT481-CCI
-	url = git@github.com:purduecyan/CNIT481-CCI.git
+	url = https://github.com/purduecyan/CNIT481-CCI.git
 [submodule "source/CNIT481-SDN"]
 	path = source/CNIT481-SDN
-	url = git@github.com:purduecyan/CNIT481-SDN.git
+	url = https://github.com/purduecyan/CNIT481-SDN.git
