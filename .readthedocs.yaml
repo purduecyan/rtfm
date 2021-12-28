@@ -24,7 +24,7 @@ python:
    - requirements: source/requirements.txt
 
 submodules:
-   include:
-     - CNIT481-CCI
-     - CNIT481-SDN  
+   include: all
+#     - CNIT481-CCI
+#     - CNIT481-SDN  
    recursive: true
