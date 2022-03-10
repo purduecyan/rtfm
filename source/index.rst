@@ -11,10 +11,18 @@ Welcome to Purdue CYAN Lab!
    :caption: Contents
 
    main/get-started
+   main/add-code
    main/authors
    main/contributing
    main/history
    main/support
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Research
+
+   research/index
+   research/vagrant
 
 .. toctree::
    :maxdepth: 1
