@@ -6,9 +6,13 @@
 Welcome to Purdue CYAN Lab!
 ===========================
 
+.. raw:: latex
+
+   \part{Documentation}
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents
+   :caption: Documentation
 
    main/get-started
    main/add-code
@@ -17,12 +21,20 @@ Welcome to Purdue CYAN Lab!
    main/history
    main/support
 
+.. raw:: latex
+
+   \part{Research Resources}
+
 .. toctree::
    :maxdepth: 1
    :caption: Research
 
    research/index
    research/vagrant
+
+.. raw:: latex
+
+   \part{Courses}
 
 .. toctree::
    :maxdepth: 1
