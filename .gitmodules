@@ -4,3 +4,9 @@
 [submodule "source/CNIT481-SDN"]
 	path = source/CNIT481-SDN
 	url = https://github.com/purduecyan/CNIT481-SDN.git
+[submodule "source/cloud-init"]
+	path = source/cloud-init
+	url = git@github.com:purduecyan/cloud-init.git
+[submodule "source/vagrant"]
+	path = source/vagrant
+	url = git@github.com:purduecyan/vagrant.git
