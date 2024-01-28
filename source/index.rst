@@ -26,11 +26,10 @@ Welcome to Purdue CYAN Lab!
    \part{Research Resources}
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Research
 
    research/index
-   research/vagrant
 
 .. raw:: latex
 
@@ -42,6 +41,13 @@ Welcome to Purdue CYAN Lab!
 
    Cloud-native<CNIT481-CCI/source/index>
    Software Defined Networks<CNIT481-SDN/source/index>
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Code API
+
+   autoapi/app/index
+
 
 .. Indices and tables
 .. ==================

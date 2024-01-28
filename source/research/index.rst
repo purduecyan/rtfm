@@ -1,6 +1,12 @@
-Resources
-==========
+Infrastructure
+##############
 
-This page contains links to various research and infrastructure resources used at CYAN Lab.
+This page contains links for setting up various research and infrastructure resources used at CYAN Lab.
 
-* :doc:`vagrant`
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   infrastructure/multipass
+   infrastructure/vagrant
+   

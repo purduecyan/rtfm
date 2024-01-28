@@ -29,7 +29,7 @@ import datetime
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx-prompt']
+extensions = ['sphinx-prompt', 'autoapi.extension']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -88,7 +88,22 @@ exclude_patterns = ['_build']
 #show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+# pygments_style = 'sphinx'
+# pygments_style = 'default'
+pygments_style = 'monokai'
+
+# To get the list of supported styles, use:
+# >>> from pygments.styles import get_all_styles
+# >>> list(get_all_styles())
+# ['abap', 'algol', 'algol_nu', 'arduino', 'autumn', 'bw', 'borland', 
+# 'colorful', 'default', 'dracula', 'emacs', 'friendly_grayscale', 
+# 'friendly', 'fruity', 'github-dark', 'gruvbox-dark', 'gruvbox-light', 
+# 'igor', 'inkpot', 'lightbulb', 'lilypond', 'lovelace', 'manni', 
+# 'material', 'monokai', 'murphy', 'native', 'nord-darker', 'nord', 
+# 'one-dark', 'paraiso-dark', 'paraiso-light', 'pastie', 'perldoc', 
+# 'rainbow_dash', 'rrt', 'sas', 'solarized-dark', 'solarized-light', 
+# 'staroffice', 'stata-dark', 'stata-light', 'tango', 'trac', 'vim', 
+# 'vs', 'xcode', 'zenburn']
 
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
@@ -264,3 +279,10 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+# Sphinx AutoAPI Information ----- (Added 01/26/2024)
+# Add AutoAPI code directories
+autoapi_dirs = ['../../../../PycharmProjects/restx-test/']
+
+# Remove API Index Page
+autoapi_add_toctree_entry = False
