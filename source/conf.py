@@ -29,7 +29,8 @@ import datetime
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx-prompt', 'autoapi.extension']
+# extensions = ['sphinx-prompt', 'autoapi.extension']
+extensions = ['sphinx-prompt']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -282,7 +283,7 @@ texinfo_documents = [
 
 # Sphinx AutoAPI Information ----- (Added 01/26/2024)
 # Add AutoAPI code directories
-autoapi_dirs = ['../../../../PycharmProjects/restx-test/']
+# autoapi_dirs = ['PycharmProjects/test/']
 
 # Remove API Index Page
-autoapi_add_toctree_entry = False
+# autoapi_add_toctree_entry = False
