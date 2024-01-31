@@ -2,7 +2,7 @@
 Authors
 #######
 
-This page lists the maintainers and contributors of the Purdue CYAN Lab documentation. Please email **nadig [AT] purdue [DOT] edu** to contribute to this project.
+This page lists the maintainers and contributors of the Purdue CYAN Lab documentation. Please email `the maintainers <mailto:nadig@purdue.edu>`_ to contribute to this project.
 
 Maintainers
 -----------
