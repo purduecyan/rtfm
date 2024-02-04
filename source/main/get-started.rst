@@ -27,23 +27,23 @@ Quick start
 
 Assuming you have Python already:
 
-.. prompt:: bash $
+.. prompt:: console
 
-    pip install sphinx
+    $ pip install sphinx
 
 Create a directory inside your project to hold your docs:
 
-.. prompt:: bash $
+.. prompt:: console
 
-    cd /path/to/project
-    mkdir docs
+    $ cd /path/to/project
+    $ mkdir docs
 
 Run ``sphinx-quickstart`` in there:
 
-.. prompt:: bash $
+.. prompt:: console
 
-    cd docs
-    sphinx-quickstart
+    $ cd docs
+    $ sphinx-quickstart
 
 This quick start will walk you through creating the basic configuration; in most cases, you
 can just accept the defaults. When it's done, you'll have an ``index.rst``, a
@@ -52,9 +52,9 @@ can just accept the defaults. When it's done, you'll have an ``index.rst``, a
 Now, edit your ``index.rst`` and add some information about your project.
 Include as much detail as you like. Build them to see how they look:
 
-.. prompt:: bash $
+.. prompt:: console
 
-    make html
+    $ make html
 
 Your ``index.rst`` has been built into ``index.html``
 in your documentation output directory (typically ``_build/html/index.html``).
@@ -67,24 +67,37 @@ Building this documentation
 To access this documentation offline, install the following python packages. We recommend using a python virtual
 environment (i.e., *venv*).
 
-.. prompt:: bash $
+.. prompt:: console
 
-    pip install sphinx
-    pip install sphinx-prompt
-    pip install sphinx-rtd-theme
+    $ pip install sphinx
+    $ pip install sphinx-prompt
+    $ pip install sphinx-rtd-theme
 
 Clone the CYAN Lab documentation repository in your project directory to hold your docs:
 
-.. prompt:: bash $
+.. prompt:: console
 
-    cd /path/to/project
-    git clone https://github.com/purduecyan/rtfm
-    cd rtfm
-    make html
+    $ cd /path/to/project
+    $ git clone https://github.com/purduecyan/rtfm
+    $ cd rtfm
+    $ make html
 
 The documentation will be built into your ``build/html/`` directory.
 Open the ``index.html`` file in your web browser to see your docs.
 
+
+Updating Git Submodules
+-----------------------
+
+To update all git submodule repositories in the source folder:
+
+.. prompt:: console
+
+    $ cd source
+    $ git submodule update --remote
+
+
+Next, add, commit and push the files to remote for changes to take effect.
 
 
 External resources
