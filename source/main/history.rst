@@ -1,6 +1,12 @@
 Changelog
 =========
 
+Commit: 7f08cf4 --- **Updated submodules.** --- On (2024-02-03) --- By <*Deepak Nadig*>
+
+Commit: a8f56f4 --- **Added sphinx-copybutton and sphinx-code-tabs.** --- On (2024-02-03) --- By <*Deepak Nadig*>
+
+Commit: 9a50713 --- **Updated Changelog.** --- On (2024-01-28) --- By <*Deepak Nadig*>
+
 Commit: 4f62d90 --- **Updated submodules.** --- On (2024-01-28) --- By <*Deepak Nadig*>
 
 Commit: 5757b0d --- **Updated configs** --- On (2024-01-28) --- By <*Deepak Nadig*>
