@@ -9,4 +9,8 @@ This page contains links for setting up various research and infrastructure reso
 
    infrastructure/multipass
    infrastructure/vagrant
-   
+   infrastructure/kubernetes
+   infrastructure/kubeflow
+   infrastructure/service_meshes
+   infrastructure/nfs_storage
+   infrastructure/metallb
