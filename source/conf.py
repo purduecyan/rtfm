@@ -153,6 +153,10 @@ html_theme_options = {
     'display_version': False,
 }
 
+html_js_files = [
+    'js/custom.js'
+]
+
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
