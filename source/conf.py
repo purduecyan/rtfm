@@ -157,6 +157,14 @@ html_js_files = [
     'js/custom.js'
 ]
 
+html_context = {
+  'display_github': True,
+  'github_user': 'purduecyan',
+  'github_repo': 'rtfm',
+  'github_version': 'main',
+  'conf_py_path": "/source/',
+}
+
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
