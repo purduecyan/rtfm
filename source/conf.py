@@ -162,7 +162,7 @@ html_context = {
   'github_user': 'purduecyan',
   'github_repo': 'rtfm',
   'github_version': 'main',
-  'conf_py_path": "/source/',
+  'conf_py_path": "/source/'
 }
 
 # Add any extra paths that contain custom files (such as robots.txt or
