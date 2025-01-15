@@ -30,7 +30,7 @@ import datetime
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # extensions = ['sphinx-prompt', 'autoapi.extension']
-extensions = ['sphinx-prompt', 'sphinx_copybutton']
+extensions = ['sphinx-prompt', 'sphinx_copybutton', 'sphinxcontrib.jquery']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
