@@ -150,7 +150,7 @@ html_static_path = ['_static']
 html_logo = "_static/CYAN-Lab.png"
 html_theme_options = {
     'logo_only': False,
-    'display_version': False,
+    # 'display_version': False,
 }
 
 html_js_files = [
