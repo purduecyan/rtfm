@@ -39,7 +39,7 @@ Welcome to Purdue CYAN Lab!
    :maxdepth: 1
    :caption: Courses
 
-   Cloud-native<CNIT481-CCI/source/index>
+   Cloud-native<CNIT481-CCI/docs/source/index>
    Software Defined Networks<CNIT481-SDN/source/index>
 
 .. .. toctree::
