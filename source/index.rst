@@ -33,7 +33,7 @@ Welcome to Purdue CYAN Lab!
 
 .. raw:: latex
 
-   \part{Courses}
+   \part{Teaching Resources}
 
 .. toctree::
    :maxdepth: 1
