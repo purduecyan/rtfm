@@ -27,7 +27,7 @@ Welcome to Purdue CYAN Lab!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Research
+   :caption: Research Resources
 
    research/index
 
@@ -37,7 +37,7 @@ Welcome to Purdue CYAN Lab!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Courses
+   :caption: Teaching Resources
 
    Cloud-native<CNIT481-CCI/docs/source/index>
    Software Defined Networks<CNIT481-SDN/source/index>
