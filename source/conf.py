@@ -33,7 +33,8 @@ import datetime
 extensions = ['sphinx-prompt', 
               'sphinx_copybutton', 
               'sphinxcontrib.jquery',
-              'sphinx.ext.graphviz'
+              'sphinx.ext.graphviz',
+              'sphinx_git'
               ]
 
 # Add any paths that contain templates here, relative to this directory.

@@ -61,26 +61,34 @@ in your documentation output directory (typically ``_build/html/index.html``).
 Open this file in your web browser to see your docs.
 
 
-Building this documentation
----------------------------
+Building Docsy
+--------------
 
-To access this documentation offline, install the following python packages. We recommend using a python virtual
-environment (i.e., *venv*).
-
-.. prompt:: console
-
-    $ pip install sphinx
-    $ pip install sphinx-prompt
-    $ pip install sphinx-rtd-theme
-
-Clone the CYAN Lab documentation repository in your project directory to hold your docs:
+Assuming you have Python, pip and virtual environment support installed, clone this repository:
 
 .. prompt:: console
 
-    $ cd /path/to/project
-    $ git clone https://github.com/purduecyan/rtfm
-    $ cd rtfm
+    $ git clone https://github.com/purduecyan/docsy
+    $ cd docsy
+
+
+Create a python virtual environment and install the package:
+    
+.. prompt:: console
+
+    $ python3 -m venv .venv
+    $ source .venv/bin/activate
+    $ pip install .
+
+
+This will install Sphinx and some other useful packages. You can now build the documentation
+for this project by running:
+
+.. prompt:: console
+
+    $ cd docs
     $ make html
+
 
 The documentation will be built into your ``build/html/`` directory.
 Open the ``index.html`` file in your web browser to see your docs.
