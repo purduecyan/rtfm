@@ -64,7 +64,7 @@ Open this file in your web browser to see your docs.
 Building Docsy
 --------------
 
-Assuming you have Python, pip and virtual environment support installed, clone this repository:
+Assuming you have Python 3.13 (or newer), pip and virtual environment support installed, clone this repository:
 
 .. prompt:: console
 
@@ -94,6 +94,56 @@ The documentation will be built into your ``build/html/`` directory.
 Open the ``index.html`` file in your web browser to see your docs.
 
 
+.. warning::
+
+   For Python versions older than 3.13, you may encounter compatibility issues with some dependencies. You can install all deplendencies manually using:
+
+    .. prompt:: console
+    
+         $ pip install sphinx sphinx-autoapi sphinx-code-tabs sphinx-copybutton sphinx-design sphinx-git sphinx-prompt sphinx-rtd-theme sphinxcontrib-jquery
+
+
+
+Adding New Content
+------------------
+
+To add new content to your documentation, create a new reStructuredText file in the ``source/main`` folder. For example, to add a new page called "foo", create a file named ``foo.rst`` in the ``source/main`` folder. 
+
+.. prompt:: console
+
+    $ cd source/main
+    $ touch foo.rst
+
+Popoulate this new file with your content using reStructuredText syntax. As an example, you can start with:
+
+.. prompt:: console
+
+    Foo
+    ===
+
+    This is the foo page.
+
+Then, add a reference to this new file in the ``index.rst`` file located in the ``source`` folder. You can do this by adding a line like the following under the appropriate section:
+
+.. prompt:: console
+
+    .. toctree::
+       :maxdepth: 2
+       :caption: Contents:
+        
+       main/foo
+
+Make sure to adjust the indentation to match the existing entries in the toctree. Finally, rebuild your documentation to see the changes:
+
+.. prompt:: console
+
+    $ cd ..
+    $ make html
+
+
+The html documentation for your new page will be generated in the ``build/html`` directory. Open the ``index.html`` file in your web browser to see your updated docs.
+
+
 Updating Git Submodules
 -----------------------
 
@@ -113,8 +163,15 @@ External resources
 
 Here are some external resources to help you learn more about Sphinx.
 
+* `Sphinx Cheat Sheet`_
+* `Sphinx reStructuredText Primer`_
 * `Sphinx documentation`_
 * `An introduction to Sphinx and Read the Docs for technical writers`_
+
+
+.. _Sphinx Cheat Sheet: https://sphinx-tutorial.readthedocs.io/cheatsheet/
+
+.. _Sphinx reStructuredText Primer: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 
 .. _Sphinx documentation: https://www.sphinx-doc.org/
 
