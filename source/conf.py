@@ -159,6 +159,8 @@ html_theme_options = {
     # 'display_version': False,
 }
 
+html_css_files = ["custom.css"]
+
 html_js_files = [
     'js/custom.js'
 ]
@@ -311,3 +313,11 @@ texinfo_documents = [
 copybutton_exclude = '.linenos, .gp, .go'
 copybutton_prompt_text = r">>> |\.\.\. |\$ |In \[\d*\]: | {2,5}\.\.\.: | {5,8}: "
 copybutton_prompt_is_regexp = True
+
+# Location badges (sphinx-design), used in the handbook: |ws| |gl| |rh| |bs|
+rst_prolog = """   
+.. |ws| replace:: :bdg-primary:`Workstation`
+.. |gl| replace:: :bdg-warning:`GitLab`
+.. |rh| replace:: :bdg-success:`Runner Host`
+.. |bs| replace:: :bdg-info:`Brightspace`
+"""

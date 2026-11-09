@@ -1,0 +1,10 @@
+/* Let long table cells wrap instead of scrolling sideways (the RTD theme's default is nowrap). */
+.wy-table-responsive table td,
+.wy-table-responsive table th {
+  white-space: normal;
+  vertical-align: top;
+}
+/* Wider content column: the handbook has many tables. */
+.wy-nav-content { max-width: 1100px; }
+/* Badges sit a little apart, and slightly larger than body text's small caps. */
+.sd-badge { margin-right: 0.25em; font-size: 0.8em; }
