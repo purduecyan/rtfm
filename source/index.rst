@@ -42,9 +42,13 @@ Welcome to Purdue CYAN Lab!
    Cloud-native Infrastructure<CNIT481-CCI/docs/source/index>
    Software Defined Networks<CNIT481-SDN/source/index>
 
+.. raw:: latex
+
+   \part{CYAN Lab Software}
+
 .. toctree::
    :maxdepth: 2
-   :caption: Software
+   :caption: CYAN Lab Software
 
    Course Ops<autograder/core/docs/index>
 
