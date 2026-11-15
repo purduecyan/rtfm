@@ -50,7 +50,7 @@ Welcome to Purdue CYAN Lab!
    :maxdepth: 2
    :caption: CYAN Lab Software
 
-   Course Ops<autograder/core/docs/index>
+   Course Ops<gradeplane/core/docs/index>
 
 .. .. toctree::
 ..    :maxdepth: 2

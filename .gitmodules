@@ -10,6 +10,6 @@
 [submodule "source/vagrant"]
 	path = source/vagrant
 	url = https://github.com/purduecyan/vagrant.git
-[submodule "source/autograder/core"]
-	path = source/autograder/core
-	url = https://git.cyanlab.org/autograder/core.git
+[submodule "source/gradeplane/core"]
+	path = source/gradeplane/core
+	url = https://git.cyanlab.org/gradeplane/core.git
